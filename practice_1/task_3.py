@@ -10,7 +10,7 @@ height = float(input("Ваш рост в см: "))/100
 
 
 #Ваш кол
-#TODO: перевела см в м, г в кг
+#TODO: перевела см в м
 body_mass_index = weight/height**2
 
 print(body_mass_index)
