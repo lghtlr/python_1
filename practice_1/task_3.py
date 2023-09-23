@@ -5,9 +5,12 @@ BMI) человека. Пользователь должен ввести сво
 используете одну из приведенных ниже формул для определения индекса.
 BMI = вес/рост**2 
 """
-weight = input()
-height = input()
+weight = float(input("Ваш вес в кг: "))
+height = float(input("Ваш рост в см: "))/100
 
 
 #Ваш кол
+#TODO: перевела см в м, г в кг
+body_mass_index = weight/height**2
 
+print(body_mass_index)
